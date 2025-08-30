@@ -9,27 +9,39 @@
     width: 32%;
     background-color: #f5c7c7;
     padding: 5px;
-   margin: 15px;
-}   
+    margin: 15px;
+    border-style: outset;
+    border-width: 5px;
+}
 
-#titulo{
+#titulo {
     color: rgb(0, 0, 0);
-    text-align:justify
-    
+    text-align: justify
 }
 
 #fondo {
     background-color: lightblue;
     padding: 12px;
     text-align: justify;
-     border: 2px solid rgba(0, 0, 0, 0.1);
-     border-radius: 5px;
-        opacity: 0.8;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    opacity: 0.8;
 }
 
 #footer {
     background-color: rgb(186, 132, 176);
     padding: 12px;
     text-align: justify;
+    border-style: inset;
+    border-width: 5px;
 }
 
+.botones {
+    color: rgb(32, 17, 35);
+    background-color: rgb(225, 148, 225));
+    border-radius: 14px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+    border width: 20px;
